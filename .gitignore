@@ -1,0 +1,23 @@
+cat > .gitignore << EOF
+# Build output
+CM7/Debug/
+CM7/Release/
+CM4/Debug/
+CM4/Release/
+Debug/
+Release/
+
+# IDE files
+.metadata/
+*.launch
+*.bak
+
+# Object files
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+EOF
